@@ -2,9 +2,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import random
 
-# 顯示完整print
-# np.set_printoptions(threshold=np.inf)
-
 # 讀檔
 def readfile(filename):
     data, temp = [], []
@@ -157,13 +154,3 @@ def hopfield(trainData, testData, NoiseData, row, col, iteration, progressbar, a
     output = np.array(output)
     showResult(num_files, ans, input, output)
 
-# if __name__ == '__main__':
-#     train_filename = 'C:/Users/user\Desktop\HopfielddataSet\Basic_Training.txt'
-#     test_filename = 'C:/Users/user\Desktop\HopfielddataSet\Basic_Testing.txt'
-#     # train_filename = 'C:/Users/user\Desktop\HopfielddataSet\Bonus_Training.txt'
-#     # test_filename = 'C:/Users/user\Desktop\HopfielddataSet\Bonus_Testing.txt'
-#
-#     trainData, row_train, col_train = readfile(train_filename)
-#     testData, row_test, col_test = readfile(test_filename)
-#
-#     hopfield(trainData, testData, row_train, col_train, 1)
