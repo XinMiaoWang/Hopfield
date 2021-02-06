@@ -44,6 +44,6 @@
 * 繪圖  
   使用matplotlib套件裡的matshow()分別畫出原始資料、測試資料與回想結果。  
     
-  ![結果](https://github.com/XinMiaoWang/Hopfield/blob/main/demo/11.png)
+  ![結果](https://github.com/XinMiaoWang/Hopfield/blob/main/demo/11.PNG)
 
 
